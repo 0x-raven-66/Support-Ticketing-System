@@ -20,3 +20,35 @@ To use the Support Ticketing System, follow these steps:
 
    ```bash
    git clone https://github.com/0x-raven-66/Support-Ticketing-System
+
+2. **Prepare the Categories File**
+Create a file named categories.txt in the project directory. Add the categories for your tickets, each on a new line.
+
+3. **Run the Application**
+   ```python 
+   python ticketing_system.py
+
+***Usage***
+When you run the application, you will be presented with a menu offering the following options:
+
+**Create a New Ticket**
+Select a category from the list provided.
+Enter a description of the issue.
+The ticket will be created and logged.
+
+**View All Tickets**
+View a list of all tickets with their status and description.
+
+**Update Ticket Status**
+Select a ticket and choose a new status (Open, In Progress, Closed).
+The status change will be logged in the ticket's history.
+
+**Add a Note to a Ticket**
+Select a ticket and enter a note.
+The note will be added to the ticket's history.
+
+**View Ticket History**
+Select a ticket to view its history, including status changes and notes.
+
+**Exit**
+Exit the application.
