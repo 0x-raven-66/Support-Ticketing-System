@@ -28,7 +28,7 @@ Create a file named categories.txt in the project directory. Add the categories 
    ```python 
    python ticketing_system.py
 
-***Usage***
+## Usage
 When you run the application, you will be presented with a menu offering the following options:
 
 **Create a New Ticket**
